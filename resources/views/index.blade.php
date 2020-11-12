@@ -148,7 +148,7 @@
                 <div class="services__item">
                     <img src="img/meeting-point.jpg" alt="">
                     <h4>Restaurant Management</h4>
-                    <p>Meeting Point owns and operates the Dunkin Donuts franchise in Lebanon. Granted the Best Worldwide Franchise Award. Domestic leader with 30 outlets nationwide.</p>
+                    <p>Meeting Point owns and operates the Dunkin Donuts franchise in Lebanon. Granted the Best Worldwide Franchise Award.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">

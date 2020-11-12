@@ -51,8 +51,8 @@
             <div class="col-md-8 col-6">
                 <nav class="header__menu mobile-menu">
                     <ul>
-                        <li class="active"><a href="{{URL::to('/')}}">Home</a></li>
-                        <li><a href="{{URL::to('/').'/'.'about'}}">About</a></li>
+                        <li class="{{ request()->is('/') ? 'active' : '' }}"><a href="{{URL::to('/')}}">Home</a></li>
+                        <li class="{{ request()->is('about') ? 'active' : '' }}"><a href="{{URL::to('/').'/'.'about'}}">About</a></li>
                         <li><a href="{{URL::to('/').'/'.'about'}}">The Group</a>
                             <ul class="dropdown">
                                 <li><a href="{{URL::to('/').'/'.'group/tecmo'}}">Tecmo</a></li>
@@ -60,9 +60,9 @@
                                 <li><a href="{{URL::to('/').'/'.'group'}}">All</a></li>
                             </ul>
                         </li>
-                        <li><a href="{{URL::to('/').'/'.'projects'}}">Projects</a></li>
-                        <li><a href="{{URL::to('/').'/'.'services'}}">Services</a></li>
-                        <li><a href="{{URL::to('/').'/'.'contact'}}">Contact</a></li>
+                        <li class="{{ request()->is('projects') ? 'active' : '' }}"><a href="{{URL::to('/').'/'.'projects'}}">Projects</a></li>
+                        <li class="{{ request()->is('services') ? 'active' : '' }}"><a href="{{URL::to('/').'/'.'services'}}">Services</a></li>
+                        <li class="{{ request()->is('contact') ? 'active' : '' }}"><a href="{{URL::to('/').'/'.'contact'}}">Contact</a></li>
                     </ul>
                 </nav>
             </div>

@@ -33,58 +33,30 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="services__item">
-                    <img src="img/services/xservices-1.png.pagespeed.ic.XH91FZiM6e.png" alt="">
-                    <h4>Interior Design</h4>
-                    <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
-                        attention.</p>
-                    <ul>
-                        <li>- Energy allocation.</li>
-                        <li>- Fire protection, safety</li>
-                        <li>- Lifts and escalators.</li>
-                        <li>- Facade engineering.</li>
-                    </ul>
+                    <img src="img/tecmo.jpg" alt="">
+                    <h4>Industrial Division</h4>
+                    <p>7 departments including general contracting, industrial refrigeration, packaging solutions, aluminium structures and energy management systems.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="services__item">
-                    <img src="img/services/xservices-2.png.pagespeed.ic.fDhjxBnTpv.png" alt="">
-                    <h4>Office Design</h4>
-                    <p>Our commitment to exceptional quality has never wavered. To day ranks as one of the most
-                        highly-regarded construction.</p>
-                    <ul>
-                        <li>- Active system.</li>
-                        <li>- Air conditioning.</li>
-                        <li> -BSRIA blue book.</li>
-                        <li>- Building services engineer.</li>
-                    </ul>
+                    <img src="img/mecanixshops.jpg" alt="">
+                    <h4>Distribution and Sales</h4>
+                    <p>National leader in industrial cleaning equipment, pneumatic and electronic omponents and controls, and conveying belts.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="services__item">
-                    <img src="img/services/xservices-3.png.pagespeed.ic.shchMR1U4L.png" alt="">
-                    <h4>Home Design</h4>
-                    <p>Interdisciplinary architectural studio with cultural, residential and commercial projects
-                        built worldwide.</p>
-                    <ul>
-                        <li>- Pipework.</li>
-                        <li>- Plant room.</li>
-                        <li> - Plumbing.</li>
-                        <li>- Rules of Thumb</li>
-                    </ul>
+                    <img src="img/meeting-point.jpg" alt="">
+                    <h4>Restaurant Management</h4>
+                    <p>Meeting Point owns and operates the Dunkin Donuts franchise in Lebanon. Granted the Best Worldwide Franchise Award.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="services__item">
-                    <img src="img/services/xservices-4.png.pagespeed.ic.FGXAaSorE6.png" alt="">
-                    <h4>Design drawing</h4>
-                    <p>Creating architectural and creative solutions to help people realize their vision and make
-                        them a reality.</p>
-                    <ul>
-                        <li>- Guidelines for building.</li>
-                        <li>- Thermal comfort.</li>
-                        <li>- Types of building services.</li>
-                        <li>- Types of heating system.</li>
-                    </ul>
+                    <img src="img/cedra.jpg" alt="">
+                    <h4>Consulting Services</h4>
+                    <p>Engineering Consulting, including technical studies, information systems, product design and energy saving tools.</p>
                 </div>
             </div>
         </div>
@@ -154,22 +126,22 @@
             <div class="col-lg-7 col-md-7">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#"><img src="img/logo/xlogo-1.png.pagespeed.ic.A7kdt7tC94.png" alt=""></a>
+                        <a href="#"><img src="{{asset('img/clients/coca-cola.svg')}}" alt=""></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#"><img src="img/logo/xlogo-2.png.pagespeed.ic.PgSlqpIDM9.png" alt=""></a>
+                        <a href="#"><img src="{{asset('img/clients/dominos.svg')}}" alt=""></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#"><img src="img/logo/xlogo-3.png.pagespeed.ic.1cnwIGh-WQ.png" alt=""></a>
+                        <a href="#"><img src="{{asset('img/clients/pizzahut.png')}}" alt=""></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#"><img src="img/logo/xlogo-4.png.pagespeed.ic.Ab0IRnVY9I.png" alt=""></a>
+                        <a href="#"><img src="{{asset('img/clients/gandour.png')}}" alt=""></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#"><img src="img/logo/xlogo-3.png.pagespeed.ic.1cnwIGh-WQ.png" alt=""></a>
+                        <a href="#"><img src="{{asset('img/clients/spinneys.png')}}" alt=""></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <a href="#"><img src="img/logo/xlogo-5.png.pagespeed.ic.2RDzfZx-jc.png" alt=""></a>
+                        <a href="#"><img src="{{asset('img/clients/kfc.png')}}" alt=""></a>
                     </div>
                 </div>
             </div>
